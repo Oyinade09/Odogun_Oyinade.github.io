@@ -58,6 +58,14 @@ h2{
         padding-top: 10px;
         font-size: 3vw;
     }
+    #nav-list a{
+        color: grey;
+        text-align: center;
+        pointer-events: none;
+    }
+    #nav-list a:hover{
+        background-color: grey;
+    }
 }
 @media (max-width: 767px) {
     .navbar-brand {
@@ -81,6 +89,14 @@ h2{
         padding-top: 10px;
         font-size: 3vw;
     }
+    #nav-list a{
+        color: grey;
+        text-align: center;
+        pointer-events: none;
+    }
+    #nav-list a:hover{
+        background-color: grey;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .box{
@@ -90,6 +106,14 @@ h2{
     .navbar-brand h1 {
         padding-top: 10px;
         font-size: 4vw;
+    }
+    #nav-list a{
+        color: grey;
+        text-align: center;
+        pointer-events: none;
+    }
+    #nav-list a:hover{
+        background-color: grey;
     }
 }
 .container{
